@@ -1,2 +1,3 @@
-## Battery Engineer
-Hi. I am Bipin Lamichhane. I am a battery system engineer at Cellife and I study the aging and degradation mechanisms in Lithium-ion batteries.
+# My Tech Blog
+
+This is my personal blog built using [GitHub Pages](https://pages.github.com/) and the [Minimal Jekyll Theme](https://github.com/pages-themes/minimal).
