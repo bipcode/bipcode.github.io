@@ -3,8 +3,13 @@ layout: default
 title: Home
 ---
 
-# 👋 Welcome to My Tech Blog
+# 📝 Blog Posts
 
-I write about coding, machine learning, tools I love, and experiments I try.
-
-Check out my latest posts below 👇
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+    </li>
+  {% endfor %}
+</ul>
