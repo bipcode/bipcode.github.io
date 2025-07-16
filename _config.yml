@@ -1,3 +1,24 @@
-title: My GitHub Blog
-description: This is my awesome blog on GitHub Pages.
-theme: jekyll-theme-hacker
+title: My Tech Blog
+description: A collection of technical notes, tutorials, and experiments.
+author: Your Name
+email: your.email@example.com
+theme: jekyll-theme-minimal
+baseurl: "" # Leave this empty for user.github.io, or set to "/repo-name" for project pages
+url: "https://your-username.github.io"
+
+markdown: kramdown
+highlighter: rouge
+
+# Optional: social links
+github_username: your-username
+linkedin_username: your-linkedin
+
+# Optional: include these if you want navigation links
+show_downloads: false
+
+# Exclude these files from build (optional)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
