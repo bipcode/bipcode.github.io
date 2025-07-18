@@ -2,7 +2,7 @@ title: My Tech Blog
 description: A collection of technical notes, tutorials, and experiments.
 author: Bipin Lamichhane  
 email: lamichhanebipin1995@gmail.com
-theme: jekyll-theme-minimal
+theme: just-the-docs
 baseurl: "" # Leave this empty for user.github.io, or set to "/repo-name" for project pages
 url: "https://bipcode.github.io"
 
@@ -14,7 +14,10 @@ github_username: bipcode
 linkedin_username: Bipin Lamichhane
 
 # Optional: include these if you want navigation links
-show_downloads: false
+show_downloads: true
+
+#favicon
+favicon_ico: "favicon_ico"
 
 # Exclude these files from build (optional)
 exclude:
@@ -22,3 +25,10 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "default"

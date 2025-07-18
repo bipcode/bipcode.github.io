@@ -1,9 +1,14 @@
 ---
 layout: default
 title: Home
+nav_order: 1
 ---
 
-# 📝 Blog Posts
+# Who am I?
+{: .fs-9 }
+
+I am just a guy who loves tinkering with machines, computers and circuit boards. 
+# Blog Posts
 
 <ul>
   {% for post in site.posts %}
