@@ -2,7 +2,8 @@ title: My Tech Blog
 description: A collection of technical notes, tutorials, and experiments.
 author: Bipin Lamichhane  
 email: lamichhanebipin1995@gmail.com
-theme: just-the-docs
+#theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 baseurl: "" # Leave this empty for user.github.io, or set to "/repo-name" for project pages
 url: "https://bipcode.github.io"
 
@@ -32,3 +33,6 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+
+plugins:
+  - jekyll-remote-theme
