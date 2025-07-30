@@ -18,7 +18,7 @@ linkedin_username: Bipin Lamichhane
 show_downloads: true
 
 #favicon
-favicon_ico: "favicon_ico"
+favicon_ico: "favicon.ico"
 
 # Exclude these files from build (optional)
 exclude:
